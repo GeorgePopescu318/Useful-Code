@@ -7,3 +7,6 @@ In this repository, I will upload interesting little pieces of code that I find 
 2. All the things in this repository are things I heared or seen on the internet;
 3. Feel free to use any code here;
 4. Good luck & have fun;
+## Table of contents:
+>### *[Makefile](https://github.com/GeorgePopescu318/Useful/tree/main/Makefile)
+>### *[Snippets](https://github.com/GeorgePopescu318/Useful/tree/main/Snippets)
