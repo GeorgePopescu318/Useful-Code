@@ -16,11 +16,14 @@ And the output will be:
 ## The way I use them is mostly for calling the gcc compiler :)
 >       compile: build run
 >       valgrind: build valgrind
->       build: .......
->	         gcc ........ -Wall -g -o compiler
->       run: compiler
->	        ./compiler
->       valgrind: compiler
->	            valgrind -v --leak-check=full --show-leak-kinds=all >--track-origins=yes --vgdb=full --error-exitcode=1 ./compiler
+>       build: [c file name*]
+>	         gcc [c file name] -Wall -g -o compiler
+>       run: [compiler name**]
+>	        ./ [compiler name]
+>       valgrind:  [compiler name]
+>	            valgrind -v --leak-check=full --show-leak-kinds=all >--track-origins=yes --vgdb=full --error-exitcode=1 ./ [compiler name]
+### Okay that could be a little more than the say_hello command but I will explain all of the abomination from above:
+- 
+
 
 **Work in progress**
