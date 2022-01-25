@@ -22,7 +22,7 @@ And the output will be:
 >	        ./ [compiler name]
 >       valgrind:  [compiler name]
 >	            valgrind -v --leak-check=full --show-leak-kinds=all >--track-origins=yes --vgdb=full --error-exitcode=1 ./ [compiler name]
-### Okay that could be a little more than the say_hello command but I will explain all of the abomination from above:
+## Okay that could be a little more than the say_hello command but I will explain all of the abomination from above:
 - ### First of all I will talk about the build command:
   >      ​build: [c file name*]
   >           ​gcc [c file name] -Wall -g -o [compiler name]
