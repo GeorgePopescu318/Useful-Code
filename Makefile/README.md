@@ -35,10 +35,8 @@ The [compiler name] stands for the name of the compiler you declared above *(aga
 - ### The compile command:
 >       compile: build run 
 This command is a combination of the one above, with this instead of building the program with *make run* and actually run it with *make run* you'll just write *make compile*.
-
-
-
-
-
-
-**Work in progress**
+- ### The valgrind command:
+>     valgrind:  [compiler name]
+>	            valgrind -v --leak-check=full --show-leak-kinds=all >--track-origins=yes --vgdb=full --error-exitcode=1 ./ [compiler name]
+This command is something more complex that shows your memory leaks when working with dynamic memory, I will not get into more detail with it, you can find much more information online.
+## **This is the end of the Makefile description, I hope you found it interesting!**
