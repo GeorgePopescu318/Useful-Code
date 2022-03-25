@@ -1,4 +1,4 @@
-# *Makefile*
+# ***Makefile***
 ## What are Makefiles?
 Makefiles are a sort of shortcut that you can use while working with shell commands.
 ## How to create one?
